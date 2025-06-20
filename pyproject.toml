@@ -1,28 +1,17 @@
-[tool.poetry]
+[project]
 name = "google-auth-oauthlib-stubs"
 version = "1.1.0"
 description = "Type stubs for google-auth-oauthlib"
-repository = "https://github.com/cffnpwr/google-auth-oauthlib-stubs.git"
-authors = ["CaffeinePower <cffnpwr@gmail.com>"]
+urls.source = "https://github.com/sakgoyal/google-auth-oauthlib-stubs.git"
+authors = [{name = "CaffeinePower", email = "cffnpwr@gmail.com"}]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "./google_auth_oauthlib-stubs" }]
 classifiers = ["Typing :: Typed", "Typing :: Stubs Only"]
+requires-python = ">=3.12"
 
-[tool.poetry.dependencies]
-python = "^3.11"
-google-auth-oauthlib = "1.1.0"
-
-[tool.poetry.group.dev.dependencies]
-mypy = "^1.7.1"
-requests-oauthlib = "^1.3.1"
-yapf = "^0.40.2"
-google = "^3.0.0"
-google-auth-stubs = "^0.2.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.yapf]
-indent_width = 2
+dependencies = [
+	"google-auth-oauthlib>=1.2.0",
+	"requests-oauthlib>=1.3.1",
+	"google>=3.0.0",
+	"google-auth-stubs>=0.2.0"
+]
