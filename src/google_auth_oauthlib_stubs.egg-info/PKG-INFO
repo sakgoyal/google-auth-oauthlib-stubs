@@ -4,7 +4,7 @@ Version: 1.1.0
 Summary: Type stubs for google-auth-oauthlib
 Author-email: CaffeinePower <cffnpwr@gmail.com>
 License-Expression: MIT
-Project-URL: source, https://github.com/cffnpwr/google-auth-oauthlib-stubs.git
+Project-URL: source, https://github.com/sakgoyal/google-auth-oauthlib-stubs.git
 Classifier: Typing :: Typed
 Classifier: Typing :: Stubs Only
 Requires-Python: >=3.12
