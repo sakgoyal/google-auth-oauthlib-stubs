@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: google-auth-oauthlib-stubs
-Version: 1.1.0
+Version: 1.2.0
 Summary: Type stubs for google-auth-oauthlib
 Author-email: CaffeinePower <cffnpwr@gmail.com>
 License-Expression: MIT
