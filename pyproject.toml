@@ -1,6 +1,6 @@
 [project]
 name = "google-auth-oauthlib-stubs"
-version = "1.1.0"
+version = "1.2.0"
 description = "Type stubs for google-auth-oauthlib"
 urls.source = "https://github.com/sakgoyal/google-auth-oauthlib-stubs.git"
 authors = [{name = "CaffeinePower", email = "cffnpwr@gmail.com"}]
